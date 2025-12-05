@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My 3D Model Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My 3D Model Showcase</h1>
+  <p class="note1">These are some Unity models I’ve created.</p>
+  <p class="note2">⚠ Still in development — not available to the public yet.</p>
+
+  <section>
+    <div class="slideshow-container">
+
+      <img class="slides fade" src="./imagess/model1.jpg">
+      <img class="slides fade" src="./imagess/model2.jpg">
+      <img class="slides fade" src="./imagess/model3.jpg">
+      <img class="slides fade" src="./imagess/model4.jpg">
+      <img class="slides fade" src="./imagess/example.jpg">
+      <img class="slides fade" src="./imagess/example2.jpg">
+      <img class="slides fade" src="./imagess/example3.jpg">
+
+      <a class="prev" onclick="changeSlide(-1)">❮</a>
+      <a class="next" onclick="changeSlide(1)">❯</a>
+
+    </div>
+
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Made by Jose Torres</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
